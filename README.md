@@ -12,3 +12,7 @@ This project aims to predict flight fare prices using various machine learning m
 **Destination**: The destination to which the flight arrives.
 
 **Total Stops**: The number of stops between the source and destination.
+
+
+![image](https://github.com/user-attachments/assets/1fd9d2a3-86ef-444e-9a53-b79397f544d9)
+
