@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
+    <title>Flight Price Prediction</title>
+</head>
+
+<body>
+
+    <h1>Flight Fare Prediction</h1>
+
+    <div class="form">
+
+        <form action="/predict" , method="POST">
+
+            <div class="label">
+                <label class="tag">Airline company : </label>
+                <select id="w_class" name="airline_company" required>
+                    <option>--Select--</option>
+                    <option value="0">Air Asia</option>
+                    <option value="1">Air India</option>
+                    <option value="2">Go Air</option>
+                    <option value="3">IndiGO </option>
+                    <option value="4">Jet Airways</option>
+                    <option value="5">Jet Airways Business</option>
+                    <option value="6">Multiple Carriers</option>
+                    <option value="7">Multiple Carriers Premium </option>
+                    <option value="8">Spice Jet</option>
+                    <option value="9">TruJet</option>
+                    <option value="10">Vistara</option>
+                    <option value="11">Vistara Premium </option>
+                </select>
+            </div>
+
+
+            <div class="label">
+                <label class="tag">Source : </label>
+                <select id="w_class" name="source" required>
+                    <option>--Select--</option>
+                    <option value="0">Bangalore</option>
+                    <option value="1">Chennai</option>
+                    <option value="2">Delhi</option>
+                    <option value="3">Kolkatta </option>
+                    <option value="4">Mumbai</option>
+
+                </select>
+            </div>
+
+
+            <div class="label">
+                <label class="tag">Destination : </label>
+                <select id="w_class" name="destination" required>
+                    <option>--Select--</option>
+                    <option value="0">Bangalore</option>
+                    <option value="1">Cochin</option>
+                    <option value="2">Delhi</option>
+                    <option value="3">Hyderabad </option>
+                    <option value="4">Kolkatta</option>
+
+                </select>
+            </div>
+
+            <div class="label">
+                <label class="tag">Number of Stops: </label>
+                <select id="w_class" name="no_of_stops" required>
+                    <option>--Select--</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+
+                </select>
+            </div>
+
+
+           
+
+            <div class="btn"><input type="submit" , value="Price Predict"><br></div>
+
+            <div class="prediction">
+                <h3 style="color: black;">Fare is :</h3>
+                <h3 style="color: red;">{{fare_prediction}} </h3>
+            </div>
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>

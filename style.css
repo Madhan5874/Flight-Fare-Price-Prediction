@@ -1,0 +1,68 @@
+.form {
+    border: 2px solid blueviolet;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: navy;
+    background-color: white;
+    font-style: bold;
+    border: 2px solid blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.label{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: auto;
+    align-items: center;
+    font-size: 20px;
+}
+
+.btn{
+    
+  
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 24px;
+    font-weight: bold;
+}
+
+.prediction{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.tag{
+    color: navy;
+    font-weight: bold;
+}
