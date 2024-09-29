@@ -5,10 +5,10 @@ This project aims to predict flight fare prices using various machine learning m
 
 **Which Includes**
 
-Airline: The name of the airline operating the flight.
+**Airline**: The name of the airline operating the flight.
 
-Source: The source from where the flight departs.
+**Source**: The source from where the flight departs.
 
-Destination: The destination to which the flight arrives.
+**Destination**: The destination to which the flight arrives.
 
-Total Stops: The number of stops between the source and destination.
+**Total Stops**: The number of stops between the source and destination.
